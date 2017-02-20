@@ -40,10 +40,13 @@ a:active{
   margin-right: auto;
   display: block;
 }
+.content{
+  float: right;
+}
 #mfba15display{
 	width:600px;
+  float: left;
 }
-
 footer{
 	width: 100%;
 	background-color: #ccfff5;
