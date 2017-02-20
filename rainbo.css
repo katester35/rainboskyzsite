@@ -4,7 +4,7 @@ body{
 	font-weight: 400;
 }
 nav{
-	height: 300px;
+	height:150px;
 	font-size: 25px;
 	margin-left: auto;
 	margin-right: auto;
@@ -35,12 +35,12 @@ a:hover{
 a:active{
 	color: #78E9FF;
 }
-.rotate270{
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  transform: rotate(270deg);
+.rotate90{
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 #logo{
 	margin-left: auto;
@@ -48,9 +48,9 @@ a:active{
   display: block;
 }
 #about{
-  float: left;
-  margin-left: 400px;
-  margin-top: 0px;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 150px;
 }
 #mfba15display{
   width:600px;
@@ -66,14 +66,14 @@ a:active{
   height: 600px;
 }
 #contact{
-  float: right;
+  position: relative;
   margin-left: 200px;
   margin-top: 100px;
 }
 footer{
-	width: 100%;
+	width: 140%;
 	background-color: #ccfff5;
 	float: left;
 	margin-top: 50px;
-	min-width: 1286px;
+	min-width: 1300px;
 }
