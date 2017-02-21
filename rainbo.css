@@ -49,10 +49,11 @@ a:active{
 }
 #about{
   position: relative;
-  margin-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 150px;
 }
-#mfba15display{
+#mfba16display{
   width: 500px;
   float: left;
   margin-left: 110px;
