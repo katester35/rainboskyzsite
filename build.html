@@ -21,12 +21,54 @@
 			<a class="there" href="/rainboskyz.github.io/contact.html"> Contact </a>
 		</nav>
 		<div class="content">
-			<h2> Welcome to Rainbo Skyz! </h2>
+			<h2> Steps to Build Your Own Rainbo Skyz! </h2>
 			<img id="boba" src="boba.jpg" alt="Picture of a bowl filled with boba">
-			<h4 id="come"> Come to this site to find out all about boba! </h4>
-			<p id="learn"> Learn a <a href="/klee/BobaCentral/recipe.html">recipe</a> and what people <a href="/klee/BobaCentral/uses.html">eat or drink </a>with boba.</p>
-			<p id="see"> See what other people <a href="/klee/BobaCentral/bobareview.html">think</a> of boba. </p>
-			<p id="buy"> Buy some boba related <a href="/klee/BobaCentral/products.html"> products! </a></p>
+			<h4 id="come"> 10 Steps to Make Your New Umbrella! </h4>
+			<ol>
+				<li> Find your supplies! You will need: </li>
+					<ul>
+						<li> a big, clear umbrella </li>
+						<li> a package of LED strips </li>
+						<li> wires(at least three different colors), a wire stripper </li>
+						<li> a soldering iron </li>
+						<li> zipties </li>
+						<li> scissors </li>
+						<li> a hot glue gun </li>
+						<li> a lithium ion polymer battery, microlipo charger </li>
+						<li> microUSB cable</li>
+						<br></br>
+						<li> Optional: an accelerometer, a color sensor </li>
+					</ul>
+				<li>
+					Cut LED strips according to the length of each umbrella prong. Also, cut one wire that is slightly longer than the light strips. Additionally, cut sets of two shorter wires to fit in the middle of the umbrella in between each prong. <!--make a fritzing-->
+				</li>
+				<li>
+					Measure three wires using the colors from the ones used above the reach about the midway point of the umbrella for connecting the first LED strip to the microcontroller. Note: all lengths of the wires may vary, depending on the size of the umbrella.
+				</li>
+				<li>
+					Using a program like Fritzing, the circuit could be mapped out. It also helps to form the circuit on a table to get an idea of how it would look inside the umbrella, especially after stripping both ends of each wire. To make the next step easier, you can daisy chain the short wires together as shown.
+				</li>
+				<li>
+					Now, the soldering can begin. Taking the end of one strip, cut the top of the plastic covering to allow the areas for soldering to be open to make things easier. Leaving the longest wire for DIN/DOUT, the other two wires can be used for either 5V or GND. It doesn't matter what color, but make sure they stay consistent throughout the project. A hot glue gun can be used to "seal" the ends of each strip. This step prevents the circuit from falling apart and from getting wet. Repeat this step as many times as needed for each strip.
+				</li>
+				<li>
+					The microcontroller will also be soldered onto the first LED strip. The wires should match the places where they were placed for other places. (ex. blue wire for DIN/DOUT, red wire for GND, white wire for 5V)
+					<br></br>
+					Optional: If you want to include an accelerometer of a color sensor, cut and solder four short wires (about six inches) to GND, SCL, SDA, and 3.3V on both the microcontroller and the sensor of the accelerometer
+				</li>
+				<li>
+					By soldering each wire and following the circuit, the LED strips should form a starburst pattern, each strip aligning with an umbrella prong. By flipping the circuit to have the lights facing the umbrella, fit each strip underneath each prong so the lights can be seen from the outside.
+				</li>
+				<li>
+					Using zip ties, secure each light strip to the umbrella prongs, using about four to five zip ties per prong to make sure it is secure.
+				</li>
+				<li>
+					Using the microUSB cord, plug the microcontroller into your laptop. Making sure you have the program Arduino downloaded, program your umbrella to your liking. If you builti the simplest version of the umbrella, you can use a code like STRANDTEST to let the colors run through a set pattern of colors.
+				</li>
+				<li>
+					Change the code as much as you want, and then the umbrella is finished! Stay dry and have fun!
+				</li>
+			</ol>
 		</div>
 		<footer>
 			<p>

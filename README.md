@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Rainbo Skyz!
 
 You can use the [editor on GitHub](https://github.com/katester35/rainboskyz.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
