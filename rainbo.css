@@ -93,10 +93,10 @@ a:active{
 .instructions{
 	float: left;
 }
-#stepone, #steptwo, #stepthree, #stepfour, #stepfive{
+.stepone, #steptwo, #stepthree, #stepfour, #stepfive, #stepsix, #stepseven, #stepeight, #stepnine, #stepten{
 	float: left;
 	width: 50%;
-    margin: 8px;
+  margin: 8px;
 }
 #milktea, #snowice{
     float: left;
@@ -145,6 +145,8 @@ footer{
 	width: 100%;
 	background-color: #ccfff5;
 	float: left;
+	margin: auto;
 	margin-top: 50px;
+	min-width: 1200px;
 	min-width: 1286px;
 }
